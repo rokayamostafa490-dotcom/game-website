@@ -21,6 +21,9 @@
   .hero {
     background-attachment: scroll;
   }
+  .position-relative{
+    margin: 50px auto;
+  }
   .team-grid {
     grid-template-columns: repeat(2, 1fr);
   }

@@ -902,3 +902,47 @@ border-radius: 8px;
   color: #d4ff00;
 font-size: 19px;
 }
+.navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+.navbar-toggler {
+    border: 1px solid #d4ff00;
+    color: #d4ff00;
+    padding: 8px 12px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 2px rgba(212, 255, 0, 0.3);
+}
+
+.navbar-toggler i {
+    color: #d4ff00;
+    font-size: 22px;
+}
+
+/* عند الشاشات الصغيرة */
+@media (max-width: 991px) {
+    .navbar-collapse {
+        margin-top: 20px;
+        padding: 15px;
+        background: #111;
+        border-radius: 10px;
+    }
+
+    .navbar-nav {
+        gap: 10px;
+    }
+
+    .nav-link,
+    .nav-link1 {
+        display: block;
+        padding: 8px 0;
+    }
+
+    .navbar-collapse .btn {
+        margin-top: 10px;
+        width: 100%;
+    }
+}
