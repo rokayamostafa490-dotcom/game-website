@@ -1,0 +1,224 @@
+/* ============================= */
+/* RESPONSIVE - من 1200px لحد 250px */
+/* ============================= */
+
+/* ===== 1200px وأقل (تابلت كبير / لابتوب صغير) ===== */
+@media (max-width: 1200px) {
+  .big-title {
+    font-size: 38px;
+  }
+  .section-title {
+    font-size: 2rem;
+  }
+  .glow {
+    width: 600px;
+    height: 200px;
+  }
+}
+
+/* ===== 992px وأقل (تابلت) ===== */
+@media (max-width: 992px) {
+  .hero {
+    background-attachment: scroll;
+  }
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+  .footer-top {
+    grid-template-columns: 1fr 1fr;
+  }
+  .btn-yellow,
+  .btn-outline {
+    padding: 16px 30px;
+    font-size: 18px;
+  }
+  .big-title {
+    font-size: 32px;
+  }
+  .section-title {
+    font-size: 1.8rem;
+  }
+  .swiper-slide {
+    height: 340px;
+  }
+  .game-card {
+    height: 260px;
+  }
+}
+
+/* ===== 768px وأقل (تابلت صغير / موبايل عرضي) ===== */
+@media (max-width: 768px) {
+  .team-section,
+  .contact-section,
+  .what-section {
+    padding: 60px 5%;
+  }
+  .team-section h2,
+  .contact-header h2 {
+    font-size: 30px;
+  }
+  .team-section > p,
+  .contact-header > p {
+    font-size: 15px;
+    margin-bottom: 35px;
+  }
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+  .icon-box {
+    width: 46px;
+    height: 46px;
+    font-size: 20px;
+  }
+  .service-card {
+    padding: 30px 16px;
+  }
+  .glow-line {
+    width: 100%;
+  }
+  .glow {
+    width: 400px;
+    height: 150px;
+  }
+}
+
+/* ===== 576px وأقل (موبايل) ===== */
+@media (max-width: 576px) {
+  .hero {
+    min-height: 90vh;
+    text-align: center;
+  }
+  .btn-yellow,
+  .btn-outline {
+    padding: 14px 24px;
+    font-size: 15px;
+    width: 100%;
+  }
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+  .team-card {
+    aspect-ratio: 4 / 3;
+  }
+  .swiper-slide {
+    height: 300px;
+  }
+  .game-card {
+    height: 230px;
+  }
+  .big-title {
+    font-size: 26px;
+  }
+  .section-title {
+    font-size: 1.5rem;
+  }
+  .contact-form {
+    padding: 20px;
+  }
+  .info-card {
+    padding: 18px;
+    gap: 14px;
+  }
+  .icon-circle {
+    width: 46px;
+    height: 46px;
+    min-width: 46px;
+  }
+  .footer-top {
+    grid-template-columns: 1fr;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+  .footer-legal {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .stats-row {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+/* ===== 400px وأقل (موبايل صغير) ===== */
+@media (max-width: 400px) {
+  .big-title {
+    font-size: 22px;
+  }
+  .section-eyebrow,
+  .small-label {
+    font-size: 11px;
+    letter-spacing: 1.5px;
+  }
+  .team-section h2,
+  .contact-header h2 {
+    font-size: 24px;
+  }
+  .team-info h3 {
+    font-size: 17px;
+  }
+  .service-card .icon-wrap {
+    width: 52px;
+    height: 52px;
+    font-size: 1.3rem;
+  }
+  .send-btn {
+    font-size: 14px;
+    padding: 12px;
+  }
+  .footer-logo {
+    font-size: 19px;
+  }
+}
+
+/* ===== 250px وأقل (أصغر شاشة ممكنة) ===== */
+@media (max-width: 320px) {
+  .btn-yellow,
+  .btn-outline {
+    font-size: 13px;
+    padding: 12px 18px;
+  }
+  .big-title {
+    font-size: 18px;
+  }
+  .section-title {
+    font-size: 1.2rem;
+  }
+  .swiper-slide {
+    height: 260px;
+  }
+  .game-card {
+    height: 200px;
+  }
+  .icon-circle,
+  .icon-box {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+  .team-info h3,
+  .contact-form h3 {
+    font-size: 15px;
+  }
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    font-size: 13px;
+    padding: 10px 12px;
+  }
+  .footer-socials a,
+  .social-icons a {
+    width: 34px;
+    height: 34px;
+    font-size: 13px;
+  }
+  .glow {
+    width: 260px;
+    height: 100px;
+  }
+}
